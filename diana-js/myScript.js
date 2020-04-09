@@ -1,8 +1,6 @@
 var nume = ""
 var age = ""
-var color = "
-
-}
+var color = ""
 
 function askForName() {
 	nume = prompt("Introduceti numele:")
