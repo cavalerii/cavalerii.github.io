@@ -21,8 +21,8 @@
 
 footer {
 	padding: 40px 0 0 0;
-	background: #444;
-	color: #aaa;
+	background: #2f8132;
+	color: white;
 	text-align: left;
 }
 
@@ -40,7 +40,7 @@ footer {
 .footer-right a {
 	margin: 0 6px;
     font-size: 32px;
-    color: #aaa;
+    color: white;
 }
 .footer-right a:hover, .footer-right a:focus { color: #eee; }
 
@@ -51,7 +51,7 @@ footer {
 
 .footer-bottom a {
 	font-size: 32px;
-    color: #666;
+    color: white;
     line-height: 40px;
 }
 
