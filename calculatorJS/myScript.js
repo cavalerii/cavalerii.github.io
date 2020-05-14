@@ -9,10 +9,10 @@ document.getElementById("firstNumber").innerHTML= `Primul număr: ` + text;
 
 function askForSecondNumber(){
 let text = prompt("Introdu al doilea numar")
-document.getElementById("secondNumber").innerHTML= `Al doile număr: ` + text; 
+document.getElementById("secondNumber").innerHTML= `Al doilea număr: ` + text; 
 secondNumber=parseInt(text,10)
 }
 function displayResult(){
  let result= firstNumber+ secondNumber
-document.getElementById("resume").innerHTML= `Rezultatul este ${result}`  
+document.getElementById("result").innerHTML= `Rezultatul este ${result}`  
 }
