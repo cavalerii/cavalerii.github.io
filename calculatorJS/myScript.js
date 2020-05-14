@@ -12,5 +12,5 @@ secondNumber=parseInt(text,10)
 }
 function displayResult(){
  let result= firstNumber+ secondNumber
-        confirm(`rezultatul este ${result}`)
+        confirm(`Rezultatul este ${result}`)
 }
