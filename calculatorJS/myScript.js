@@ -12,7 +12,22 @@ let text = prompt("Introdu al doilea numar")
 document.getElementById("secondNumber").innerHTML= `Al doilea număr: ` + text; 
 secondNumber=parseInt(text,10)
 }
-function displayResult(){
- let result= firstNumber+ secondNumber
+function displayAddResult(){
+ let result= firstNumber + secondNumber
 document.getElementById("result").innerHTML= `Rezultatul este ${result}`  
 }
+
+function displayMinResult(){
+    let result= firstNumber - secondNumber
+   document.getElementById("result").innerHTML= `Rezultatul este ${result}`  
+   }
+
+   function displayMultiplyResult(){
+    let result= firstNumber * secondNumber
+   document.getElementById("result").innerHTML= `Rezultatul este ${result}`  
+   }
+
+   function displayDivideResult(){
+    let result= firstNumber / secondNumber
+   document.getElementById("result").innerHTML= `Rezultatul este ${result}`  
+   }
