@@ -30,6 +30,14 @@ function displayMinResult(){
 
    function displaySqrtForFirstNumber(){
      let firstNumber=parseFloat(document.getElementById("firstNumber").value,10)
-     let result= Math.sqrt(firstNumber)
-   document.getElementById("result").innerHTML= `Radical din ${firstNumber} este ${result}`
-   }
+     if(Number.isInteger(firstNumber)){
+      let result= Math.sqrt(firstNumber)
+      document.getElementById("result").innerHTML= `Radical din ${firstNumber} este ${result}`
+     }
+     else{alert("Voi nu stiti din astea!")}
+    }
+    
+
+
+
+    
