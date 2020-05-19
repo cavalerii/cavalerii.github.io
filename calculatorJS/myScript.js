@@ -1,33 +1,29 @@
-let firstNumber=0 
-let secondNumber=0
 
-function askForFirstNumber(){
- let text = prompt("Introdu primul numar") 
-document.getElementById("firstNumber").innerHTML= `Primul număr: ` + text; 
- firstNumber=parseInt(text,10)
-}
-
-function askForSecondNumber(){
-let text = prompt("Introdu al doilea numar")
-document.getElementById("secondNumber").innerHTML= `Al doilea număr: ` + text; 
-secondNumber=parseInt(text,10)
-}
 function displayAddResult(){
+   let firstNumber=parseInt(document.getElementById("firstNumber").value,10) 
+   let secondNumber=parseInt(document.getElementById("secondNumber").value,10)
  let result= firstNumber + secondNumber
+
 document.getElementById("result").innerHTML= `Rezultatul este ${result}`  
 }
 
 function displayMinResult(){
-    let result= firstNumber - secondNumber
+    let firstNumber=parseInt(document.getElementById("firstNumber").value,10) 
+   let secondNumber=parseInt(document.getElementById("secondNumber").value,10)
+    let result=  firstNumber - secondNumber
    document.getElementById("result").innerHTML= `Rezultatul este ${result}`  
    }
 
    function displayMultiplyResult(){
+    let firstNumber=parseInt(document.getElementById("firstNumber").value,10) 
+    let secondNumber=parseInt(document.getElementById("secondNumber").value,10)
     let result= firstNumber * secondNumber
    document.getElementById("result").innerHTML= `Rezultatul este ${result}`  
    }
 
    function displayDivideResult(){
+    let firstNumber=parseInt(document.getElementById("firstNumber").value,10) 
+    let secondNumber=parseInt(document.getElementById("secondNumber").value,10)
     let result= firstNumber / secondNumber
    document.getElementById("result").innerHTML= `Rezultatul este ${result}`  
    }
