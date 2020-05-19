@@ -27,3 +27,9 @@ function displayMinResult(){
     let result= firstNumber / secondNumber
    document.getElementById("result").innerHTML= `Rezultatul este ${result}`  
    }
+
+   function displaySqrtForFirstNumber(){
+     let firstNumber=parseFloat(document.getElementById("firstNumber").value,10)
+     let result= Math.sqrt(firstNumber)
+   document.getElementById("result").innerHTML= `Radical din ${firstNumber} este ${result}`
+   }
