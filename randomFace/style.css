@@ -14,6 +14,7 @@
 .navbar-custom .nav-item:hover .nav-link {
     color: #ffffff;
 }
-img {
-  border-radius: 50%;
+
+.circleImage {
+    border-radius: 50;
 }
