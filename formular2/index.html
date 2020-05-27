@@ -12,16 +12,30 @@
 <h1>Formular acces clădire</h1>
   
   <form>
-<label for="nume" > Introduceți numele complet:</label>
+      <label for="nume" > Introduceți numele complet:</label>
 
-    <input type="text" id="nume" name="nume"> <br>
-<label for="adresa" >Adresa din buletin:</label>
+      <input type="text" id="nume" name="nume"> <br>
+      <label for="adresa" >Adresa din buletin:</label>
     
-    <input type="text" id="adresa" name="adresa"> <br>
- <label for="data">Data nasterii:</label>
- <input type="text" id="data" name="data"><br>
+      <input type="text" id="adresa" name="adresa"> <br>
+      <label for="data">Data nasterii:</label>
+    
+      <input type="text" id="data" name="data"><br>
+      <input type="checkbox" id="afara" name="afara" >
+      <label for="afara">Ai fost plecat din țară? </label><br>
+      <input type="checkbox" id="simptome" name="simptome">
+      <label for="simptome">Ai prezentat simptome? </label><br>
+<p>Care dintre urmatoarele simptome:</p>
+      <input type = "radio" id ="simptome2"name="simptome2">
 
-    
+        <label for = "simptome2">Febra</label><br>
+ <input type = "radio" id ="simptome3"name="simptome3">
+
+        <label for = "simptome3">Durere de cap</label><br>
+ <input type ="radio" id ="simptome4"name="simptome4">
+
+        <label for = "simptome4">Tuse</label><br>
+ <input type="submit" value="Salvează">
     
   </form>
 
