@@ -12,18 +12,25 @@
 <h1>Formular acces clădire</h1>
   
   <form>
-      <label for="nume" > Introduceți numele complet:</label>
+    <table>
+      <tr>
+        <td> 
+          <label for="nume" > Introduceți numele complet:</label> </td>
+        <td>
+          <input type="text" id="nume" name="nume"> <br> <br></td>
+    </tr>
+  
+  <tr>
+    <td> <label for="adresa" >Adresa din buletin:</label></td>
+    <td>     <input type="text" id="adresa" name="adresa"><br>    <br> </td>
+  </tr>
 
-      <input type="text" id="nume" name="nume"> <br>
-       <br>                                </br>
-      <label for="adresa" >Adresa din buletin:</label>
-    
-      <input type="text" id="adresa" name="adresa"> <br>
-       <br>                                       </br>
-      <label for="data">Data nasterii:</label>
-    
-      <input type="text" id="data" name="data"><br>
-       <br>                                  </br>
+<tr>
+  <td> <label for="data">Data nasterii:</label></td>
+  <td>      <input type="text" id="data" name="data"><br><br></td>
+</tr>
+  </table>
+
       <input type="checkbox" id="afara" name="afara">
       <label for="afara">Ai fost plecat din țară? </label><br>
       <input type="checkbox" id="simptome" name="simptome">
