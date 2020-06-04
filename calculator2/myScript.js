@@ -1,6 +1,6 @@
 function button7() {
   document.getElementById("calcul").value="7";
-
+}
 function button8() {
   document.getElementById("calcul").value="8";
 }
