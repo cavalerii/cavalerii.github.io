@@ -27,6 +27,16 @@ function button3() {
   document.getElementById("calcul").value="3";
 
 }
+
+function button0() {
+  document.getElementById("calcul").value="0";
+
+}
+
+function buttonPlus() {
+  document.getElementById("calcul").value="+";
+
+}
 function buttonMultiply() {
   document.getElementById("calcul").value="×";
 }
