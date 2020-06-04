@@ -52,3 +52,8 @@ function button1() {
 function buttonMinus() {
   document.getElementById("calcul").value="-";
 }
+
+function buttonPunct() {
+  document.getElementById("calcul").value=".";
+
+}
