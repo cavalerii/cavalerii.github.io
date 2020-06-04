@@ -30,3 +30,15 @@ function button3() {
 function buttonMultiply() {
   document.getElementById("calcul").value="×";
 }
+
+function button2() {
+  document.getElementById("calcul").value="2";
+}
+
+function button1() {
+  document.getElementById("calcul").value="1";
+}
+
+function buttonMinus() {
+  document.getElementById("calcul").value="-";
+}
