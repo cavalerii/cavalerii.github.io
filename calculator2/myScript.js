@@ -1,5 +1,11 @@
+
+let input="" 
+
+
 function button7() {
-  document.getElementById("calcul").value="7";
+  input="7"
+  document.getElementById("calcul").value=input;
+
 }
 function button8() {
   document.getElementById("calcul").value="8";
