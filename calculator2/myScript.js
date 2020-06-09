@@ -1,9 +1,9 @@
 
-let input="" 
+let input="" ;
 
 
 function button7() {
-  input="7"
+  input=input+"7";
   document.getElementById("calcul").value=input;
 
 }
