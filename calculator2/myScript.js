@@ -8,58 +8,71 @@ function button7() {
 
 }
 function button8() {
-  document.getElementById("calcul").value="8";
+input = input + "8" ;
+  document.getElementById("calcul").value=input;
 }
 function button9() {
-  document.getElementById("calcul").value="9";
+input = input + "9" ;
+  document.getElementById("calcul").value=input;
 }
 function buttonDivide() {
-  document.getElementById("calcul").value="/";
-
+input = input + "/" ;
+  document.getElementById("calcul").value=input;
 }
 function button6() {
-  document.getElementById("calcul").value="6";
+input = input + "6" ;
+  document.getElementById("calcul").value=input;
 
 }
 function button5() {
-  document.getElementById("calcul").value="5";
+input = input + "5" ;
+  document.getElementById("calcul").value=input;
 
 }
 function button4() {
-  document.getElementById("calcul").value="4";
+input = input + "4" ;
+  document.getElementById("calcul").value=input;
 
 }
 function button3() {
-  document.getElementById("calcul").value="3";
+input = input + "3" ;
+  document.getElementById("calcul").value=input;
 
 }
 
 function button0() {
-  document.getElementById("calcul").value="0";
+input = input + "0" ;
+  document.getElementById("calcul").value=input;
 
 }
 
 function buttonPlus() {
-  document.getElementById("calcul").value="+";
+input = input + "+" ;
+  document.getElementById("calcul").value=input;
 
 }
 function buttonMultiply() {
-  document.getElementById("calcul").value="×";
+input = input + "*" ;
+  document.getElementById("calcul").value=input;
 }
 
 function button2() {
-  document.getElementById("calcul").value="2";
+input = input + "2" ;
+  document.getElementById("calcul").value=input;
 }
 
 function button1() {
-  document.getElementById("calcul").value="1";
+input = input + "1" ;
+  document.getElementById("calcul").value=input;
 }
 
 function buttonMinus() {
-  document.getElementById("calcul").value="-";
+input = input + "-" ;
+  document.getElementById("calcul").value=input;
 }
 
 function buttonPunct() {
-  document.getElementById("calcul").value=".";
+input = input + "." ;
+  document.getElementById("calcul").value=input;
 
 }
