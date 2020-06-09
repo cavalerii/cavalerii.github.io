@@ -76,3 +76,6 @@ input = input + "." ;
   document.getElementById("calcul").value=input;
 
 }
+function buttonreset() {
+input="";
+} 
