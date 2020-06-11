@@ -80,3 +80,7 @@ function buttonreset() {
 input = "";
 document.getElementById("calcul").value = input;
 } 
+
+function equal() {
+  document.getElementById("calcul").value = "";
+}
