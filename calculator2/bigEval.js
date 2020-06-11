@@ -85,6 +85,7 @@ document.getElementById("calcul").value = input;
 function equal() {
 var obj= new BigEval() ;
   let result=obj.exec(input);
+input="";
 document.getElementById("calcul").value = result;
 
 
