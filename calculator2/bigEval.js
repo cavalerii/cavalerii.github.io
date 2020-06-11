@@ -83,8 +83,15 @@ document.getElementById("calcul").value = input;
 } 
 
 function equal() {
-  document.getElementById("calcul").value = "";
+var obj= new BigEval() ;
+  let result=obj.exec(input);
+document.getElementById("calcul").value = "";
+
+
 }
+
+
+
 /*
 	BigEval.js
 	by Avi Aryan (http://aviaryan.in)
