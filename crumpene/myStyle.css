@@ -57,4 +57,14 @@ footer {
 
 .footer-bottom a:hover, .footer-bottom a:focus { color: #888; }
 
-.accent-color { background-color: #911111; }
+/*This is modifying the btn-primary colors but you could create your own .btn-something class as well*/
+.btn-primary {
+    color: #fff;
+    background-color: #911111;
+    border-color: #911111; /*set the color you want here*/
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary:active:focus, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #911111;
+    border-color: #911111; /*set the color you want here*/
+}
